@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(150deg, rgb(0, 26, 255) , rgb(6, 126, 206));
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+.box{
+    position: absolute;
+    background-color: rgba(58, 58, 58, 0.767);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(53, 52, 52) ;
+}
+
+.tela{
+    background-color: white;
+    width: 204px;
+    color: black;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+}
